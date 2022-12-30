@@ -195,6 +195,27 @@ public class ExceptionService {
 	
 	public void methodD() {
 		throw new RuntimeException();
+		
+		// checkedException : 
+		// - runtimeException 과 자식 예외를 제외한 나머지 예외.
+		// -if문과 같은 단순 코드로 해결이 불가능하여
+		// 반드시 예외처리 구문을 작성해야하는 예외
+		
+		// UncheckedException : 
+		// RuntimeException 과 자식예외를 지칭함
+		// -프로그램 수행중
+		// 개발자의 코딩 실수 또는 사용자의 잘못된 값 입력으로
+		// 흔하게 발생할 수있는 예외
+		
+		// -if문 같은 단순 코드로 해결 가능
+		// --> 예외처리구문을 반드시 작성할 필요가 없음
+		
+		//오버라이딩 : 상속받은 메서드를 자식이 재정의
+		// 성립조건 : 매서드명,매개변수,반환형 동일
+		// 접근제한자 같거나 더 넓은 범위
+		// 예외의 범위는 같거나 더 좁게
+		
+		
 	}
 	
 	
